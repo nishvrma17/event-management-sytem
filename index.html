@@ -1,0 +1,194 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Eventopia</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#events">Our Events</a>
+            <a href="#upcoming-events">Upcoming Events</a>
+            <a href="#booking">Booking</a>
+            <a href="#services-provided">Services Provided</a>
+            <a href="#contact">Contact</a>
+            </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section-style">
+        <h2>Welcome to Eventopia </h2>
+        <p>Your one-stop solution for managing and booking events!</p>
+        <p>Every occasion has a story- let us help you write yours with elegance, precision and passion.</p>
+        <p>Upcoming event? no worries, Eventopia is at your service!</p>
+        <p>Dive into our portfolio of events and see how we create magical moments that inspire, celebrate, and connect.</p>
+        <p>View our described events, study the services we provide, adore the decoration we give.</p>
+        <p>Book Your Own Event Now!</p>
+    </section>
+
+    <!-- Our Events Section -->
+    <section id="events" class="section-style">
+        <h2>Our Events</h2>
+        <div class="event-list">
+            <!-- Event 1: Music Concert -->
+            <div class="event">
+                <img src="https://imgs.search.brave.com/3Kg2UW3MSRzoaGjdD3iX-RW_4MtOrwl8g-ZSGY1bgRI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9hL2E3L0Ql/QzMlQkNsbWVuJTJD/X0QlQzMlQkNsbWVu/ZXJfU29tbWVyJTJD/X09wZW4tQWlyLUtv/bnplcnQlMkNfJTIy/Qm91bmNlJTIyXy0t/XzIwMThfLS1fMDA1/MS5qcGcvNjQwcHgt/RCVDMyVCQ2xtZW4l/MkNfRCVDMyVCQ2xt/ZW5lcl9Tb21tZXIl/MkNfT3Blbi1BaXIt/S29uemVydCUyQ18l/MjJCb3VuY2UlMjJf/LS1fMjAxOF8tLV8w/MDUxLmpwZw" alt="Music Concert">
+                <h3>Music Concert</h3>
+                <p>Join us for an amazing night of music and entertainment.</p>
+                <p><strong>Date:</strong> 25th December</p>
+                <p><strong>Venue:</strong> Downtown Arena, City Center</p>
+                <p><strong>Services:</strong> Live Performances, Food Stalls, VIP Lounge</p>
+                <button onclick="viewDetails('Music Concert', '25th December', 'Downtown Arena', 'Live Performances, Food Stalls, VIP Lounge')">View Details</button>
+            </div>
+            
+            <!-- Event 2: Art Exhibition -->
+            <div class="event">
+                <img src="https://imgs.search.brave.com/zD9T6E19uMm5bAawTeZqps850pjwoEjnKyO8Entkeo0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mcmlz/dGFydG11c2V1bS5v/cmcvd3AtY29udGVu/dC91cGxvYWRzL01h/Z2RhLW1lZGlhLXBy/ZXZpZXctcGljcy0x/MS5qcGc" alt="Art Exhibition">
+                <h3>Art Exhibition</h3>
+                <p>Explore incredible artworks from renowned artists.</p>
+                <p><strong>Date:</strong> 10th January</p>
+                <p><strong>Venue:</strong> Art Gallery, Elm Street</p> 
+                <p><strong>Services:</strong> Guided Tours, Live Painting, Refreshments</p>
+                <button onclick="viewDetails('Art Exhibition', '10th January', 'Art Gallery', 'Guided Tours, Live Painting, Refreshments')">View Details</button>
+            </div>
+            <!-- Event 3: Tech Conference -->
+            <div class="event">
+                <img src="https://imgs.search.brave.com/CcTmWbyV25v1kb63_3x5N4mkP4MiwgWaoD1elF4VWOE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hLnN0/b3J5Ymxvay5jb20v/Zi8xODgzMjUvNTM2/MHgzNTczLzlkYmZh/MzM2N2MvY29uZmVy/ZW5jZV9raWNrX29m/Zl8yMDIzLmpwZy9t/L2ZpbHRlcnM6cXVh/bGl0eSg3NSk_" alt="Tech Conference">
+                <h3>Tech Conference</h3>
+                <p>Learn about the latest trends in technology.</p>
+                <p><strong>Date:</strong> 5th February</p>
+                <p><strong>Venue:</strong> Tech Hub, Silicon Avenue</p>
+                <p><strong>Services:</strong> Keynote Speeches, Networking Sessions, Workshops</p>
+                <button onclick="viewDetails('Tech Conference', '5th February', 'Tech Hub', 'Keynote Speeches, Networking Sessions, Workshops')">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Provided Section -->
+    <section id="services-provided" class="section-style">
+        <h2> Services Provided</h2>
+        <div class="services-list">
+            
+            <!-- Event Planning and Coordination Section -->
+            <div class="service">
+                <h3>Event Planning and Coordination</h3>
+                <p><strong>Concept Creation:</strong> Developing themes and concepts for events.</p>
+                <p><strong>Timeline Management:</strong> Creating schedules and ensuring everything runs on time.</p>
+                <p><strong>Budget Planning:</strong> Helping clients plan and stay within budget.</p>
+                <p><strong>Vendor Coordination:</strong> Collaborating with decorators, caterers, photographers, and other vendors.</p>
+                <p><strong>On-Site Management:</strong> Supervising the event to ensure smooth execution.</p>
+            </div>
+            <!-- Venue Services -->
+            <div class="service">
+                <h3>Venue Services</h3>
+                <p><strong>Research and Shortlisting:</strong> Identifying venues that align with the event's theme, scale, and budget.</p>
+                <p><strong>Venue Visits:</strong> Organizing walkthroughs for clients to evaluate potential options.</p>
+                <p><strong>Contract Negotiation:</strong> Handling terms, rates, and agreements with the venue provider.</p>
+                <p><strong>Accessibility Considerations:</strong> Ensuring the venue is accessible for all attendees, including those with disabilities.</p>
+            </div>
+            <!-- Design And Decoration -->
+            <div class="service">
+                <h3>Design And Decoration</h3>
+                <p><strong>Thematic Decoration:</strong> Customizing event themes like weddings, corporate galas, or birthday parties.</p>
+                <p><strong>Floral Arrangements:</strong> Designing beautiful floral installations.</p>
+                <p><strong>Lighting Design:</strong> Ambient, stage, and decorative lighting.</p>
+                <p><strong>Stage Setup:</strong> Building stages and backdrops for performances or ceremonies.</p>
+            </div>
+            <!-- Catering and Food Services -->
+            <div class="service">
+                <h3>Catering and Food Services</h3>
+                <p><strong>Tailored Menus:</strong> Creating bespoke menus based on the event's theme, cultural preferences, or dietary restrictions.</p>
+                <p></strong>Cuisine Specialties:</strong> Offering a variety of cuisines (e.g., Italian, Indian, Continental, Asian fusion, etc.).</p> 
+                <p></strong>Seasonal Offerings:</strong> Incorporating seasonal ingredients for freshness and flavor.</p>
+                <p></strong>Tasting Sessions:</strong> Arranging pre-event tastings to finalize the menu.</p>
+            </div>
+
+        </div> 
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="upcoming-events" class="section-style">
+        <h2>Upcoming Events This Month</h2>
+        <div class="event-list">
+            <!-- Event: Wedding Ceremony -->
+            <div class="event">
+                <img src="https://imgs.search.brave.com/oK3Q-D-1vxo9kwr8GnNhKgCvyBUGHrJnWJP2enuAE9A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4w/LndlZGRpbmd3aXJl/LmluL2FydGljbGUv/ODA5OC8zXzIvOTYw/L2pwZy8xMTg5MDgt/c2FheWhzdHVkaW8t/Z3VqYXJhdGl3ZWRk/aW5nczMuanBlZw" alt="Wedding Ceremony">
+                <h3>Wedding Ceremony</h3>
+                <p>Celebrate love and commitment with an elegant wedding ceremony.</p>
+                <p><strong>Date:</strong> 12th November</p>
+                <p><strong>Venue:</strong> Grand Hall, Sunset Plaza</p>
+                <p><strong>Services:</strong> Catering, Decoration, Photography</p>
+                <button onclick="viewDetails('Wedding Ceremony', '12th November', 'Grand Hall, Sunset Plaza', 'Catering, Decoration, Photography')">View Details</button>
+            </div>
+            <!-- Event: Birthday Party -->
+            <div class="event">
+                <img src="https://imgs.search.brave.com/NcbO-ZnYQqhRK4NBeXorWmgr5Ob-89BJpiYPQNpEsh4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYzL2Uz/L2QzLzYzZTNkM2Uy/MGI5ZTNkNGRjM2U1/NGY2YjRiMzQyYTlm/LmpwZw" alt="Birthday Party">
+                <h3>Birthday Party</h3>
+                <p>Make your special day even more memorable with our birthday party planning.</p>
+                <p><strong>Date:</strong> 20th November</p>
+                <p><strong>Venue:</strong> Kids Adventure Hall</p>
+                <p><strong>Services:</strong> Theme Decoration, Entertainment, Cake</p>
+                <button onclick="viewDetails('Birthday Party', '20th November', 'Kids Adventure Hall', 'Theme Decoration, Entertainment, Cake')">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section-style">
+        <h2>Book Your Event</h2>
+        <form id="bookingForm">
+            <label for="organiser">Name of Organiser:</label>
+            <input type="text" id="organiser" name="organiser" required>
+
+            <label for="contact number">Contact Number</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="event">Event Name:</label>
+            <select id="event" name="event" required>
+                <option value="Music Concert">Music Concert</option>
+                <option value="Art Exhibition">Art Exhibition</option>
+                <option value="Tech Conference">Tech Conference</option>
+                <option value="Wedding Ceremony">Wedding Ceremony</option>
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Seminar">Seminar</option>
+                <option value="others">Others</option>
+            </select>
+
+            <label for="quantity">Number of Customers:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="date">Event Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="area">Desired Event Area</label>
+            <input type="text" id="area" name="area" required>
+
+            <label for="theme">Desired Theme</label>
+            <select id="theme" name="theme" required>
+                <option value="bollywood">Bollywood</option>
+                <option value="vintage glamour">Vintage Glamour</option>
+                <option value="fantasy forest">Fantasy Forest</option>
+                <option value="floral Elegance">Floral Elegance</option>
+                <option value="others">Others</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us at: info@eventmanagement.com</p>
+        <p>&copy; 2024 Event Management</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
